@@ -10,13 +10,13 @@
 - Data/provenance: `https://data.gapwise.ca`
 - Developer docs: `https://docs.gapwise.ca`
 - AI service: `https://ai.gapwise.ca`
-- Core source/API/SDKs: `Gapwise-for-UTM/gapwise`
-- Native Android: `Gapwise-for-UTM/android`
-- Native iOS: `Gapwise-for-UTM/ios`
-- AI/MCP source: `Gapwise-for-UTM/ai`
-- Canonical data source: `Gapwise-for-UTM/data`
-- Documentation source: `Gapwise-for-UTM/docs`
-- Status source: `Gapwise-for-UTM/status`
+- Core source/API/SDKs: `Gapwise-for-UofT/gapwise`
+- Native Android: `Gapwise-for-UofT/android`
+- Native iOS: `Gapwise-for-UofT/ios`
+- AI/MCP source: `Gapwise-for-UofT/ai`
+- Canonical data source: `Gapwise-for-UofT/data`
+- Documentation source: `Gapwise-for-UofT/docs`
+- Status source: `Gapwise-for-UofT/status`
 
 ## Current developer-platform release facts
 

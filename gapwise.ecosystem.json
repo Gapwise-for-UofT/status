@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "self": "status",
-  "githubOrganization": "Gapwise-for-UTM",
+  "githubOrganization": "Gapwise-for-UofT",
   "canonical": {
     "app": "https://gapwise.ca",
     "api": "https://api.gapwise.ca/v1",
@@ -13,13 +13,13 @@
     "status": "https://status.gapwise.ca"
   },
   "repositories": {
-    "core": "https://github.com/Gapwise-for-UTM/gapwise",
-    "android": "https://github.com/Gapwise-for-UTM/android",
-    "ios": "https://github.com/Gapwise-for-UTM/ios",
-    "ai": "https://github.com/Gapwise-for-UTM/ai",
-    "data": "https://github.com/Gapwise-for-UTM/data",
-    "docs": "https://github.com/Gapwise-for-UTM/docs",
-    "status": "https://github.com/Gapwise-for-UTM/status"
+    "core": "https://github.com/Gapwise-for-UofT/gapwise",
+    "android": "https://github.com/Gapwise-for-UofT/android",
+    "ios": "https://github.com/Gapwise-for-UofT/ios",
+    "ai": "https://github.com/Gapwise-for-UofT/ai",
+    "data": "https://github.com/Gapwise-for-UofT/data",
+    "docs": "https://github.com/Gapwise-for-UofT/docs",
+    "status": "https://github.com/Gapwise-for-UofT/status"
   },
   "ownership": {
     "core": ["student-state", "deterministic-domain-logic", "routing-algorithms", "gap-planning", "map-product-ui", "public-api", "openapi", "typescript-sdk", "python-sdk"],
@@ -31,7 +31,7 @@
     "status": ["service-health", "incident-communication"]
   },
   "campusData": {
-    "canonicalRepository": "https://github.com/Gapwise-for-UTM/data",
+    "canonicalRepository": "https://github.com/Gapwise-for-UofT/data",
     "canonicalPath": "data/utm",
     "coreMirrorPath": "src/data/utm",
     "runtimeFetchRequired": false,
