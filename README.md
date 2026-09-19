@@ -70,11 +70,11 @@ Current first-party SDK releases:
 ```bash
 npm install @gapwise/sdk@0.1.1
 # JSR: @gapwise/sdk@0.1.1
-# GitHub Packages mirror: @gapwise-for-utm/sdk@0.1.1
+# GitHub Packages mirror: @gapwise-for-uoft/sdk@0.1.1
 python -m pip install gapwise==0.1.0
 ```
 
-The JavaScript/TypeScript SDK is canonically published as `@gapwise/sdk` on npm and JSR and mirrored on GitHub Packages as `@gapwise-for-utm/sdk`; the Python SDK is published on PyPI. Registry availability is a developer-platform release fact, not a substitute for live API/service monitoring.
+The JavaScript/TypeScript SDK is canonically published as `@gapwise/sdk` on npm and JSR and mirrored on GitHub Packages as `@gapwise-for-uoft/sdk`; the Python SDK is published on PyPI. Registry availability is a developer-platform release fact, not a substitute for live API/service monitoring.
 
 ---
 
