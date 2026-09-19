@@ -43,7 +43,7 @@
       "registries": {
         "npm": { "version": "0.1.1", "state": "published", "role": "canonical" },
         "jsr": { "version": "0.1.1", "state": "published", "role": "canonical" },
-        "githubPackages": { "package": "@gapwise-for-utm/sdk", "version": "0.1.1", "state": "published", "role": "mirror" }
+        "githubPackages": { "package": "@gapwise-for-uoft/sdk", "version": "0.1.1", "state": "published", "role": "mirror" }
       },
       "runtimeTargets": ["node", "bun", "deno", "browser"],
       "model": "single-portable-implementation"
