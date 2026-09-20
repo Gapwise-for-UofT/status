@@ -90,7 +90,7 @@ The JavaScript/TypeScript SDK is canonically published as `@gapwise/sdk` on npm 
 | **[`docs`](https://github.com/Gapwise-for-UofT/docs)** | Canonical public developer documentation | [docs.gapwise.ca](https://docs.gapwise.ca) |
 | **[`status`](https://github.com/Gapwise-for-UofT/status)** | **Independent service-health monitoring and incident communication** | [status.gapwise.ca](https://status.gapwise.ca) |
 
-`status` owns operational communication, not product semantics. The main `gapwise` repository remains authoritative for deterministic timetable, routing, gap, public API, SDK, and student-state behavior; `data` owns public UTM campus facts.
+`status` owns operational communication, not product semantics. The main `gapwise` repository remains authoritative for deterministic timetable, routing, gap, public API, SDK, and student-state behavior; `data` owns public University of Toronto campus facts.
 
 ---
 
