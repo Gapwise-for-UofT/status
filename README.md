@@ -23,9 +23,9 @@
 
 ## What Gapwise Status is
 
-Gapwise Status is the independent operational-health surface for **Gapwise**, a privacy-first timetable and campus-intelligence platform for University of Toronto students created and engineered by **Andrew Muratov**.
+Gapwise Status is the independent operational-health surface for **Gapwise**, a privacy-first timetable and campus-intelligence platform for university students across Canada, created and engineered by **Andrew Muratov**.
 
-The seven first-party product repositories cover the web/PWA and developer platform, native Android and iOS clients, permissioned AI/MCP, canonical University of Toronto campus data, developer documentation, and this separately deployed status service.
+The seven first-party product repositories cover the web/PWA and developer platform, native Android and iOS clients, permissioned AI/MCP, canonical multi-university campus data, developer documentation, and this separately deployed status service.
 
 Status is deliberately deployed independently from the main app and developer docs so a failure in those surfaces does not automatically remove the place used to communicate service health.
 
@@ -53,7 +53,7 @@ Key behavior:
 - service-state transitions are retained for the public history view;
 - current state and history use GitHub-backed state with safe fallbacks;
 - a failure to load status data is not itself presented as proof that the entire Gapwise ecosystem is down;
-- external University of Toronto systems and other upstream dependencies remain outside Gapwise's control.
+- external university systems (U of T, Carleton, TMU, Queen's, Laurier) and other upstream dependencies remain outside Gapwise's control.
 
 Public routes include `/` for current state, `/history/` for recorded transitions/incidents, `/_data/current`, and `/_data/history`.
 
@@ -86,7 +86,7 @@ The JavaScript/TypeScript SDK is canonically published as `@gapwise/sdk` on npm 
 | **[`android`](https://github.com/Gapwise-for-UofT/android)** | Native Kotlin + Jetpack Compose Android client | Android app |
 | **[`ios`](https://github.com/Gapwise-for-UofT/ios)** | Native Swift + SwiftUI iOS client | iOS app |
 | **[`ai`](https://github.com/Gapwise-for-UofT/ai)** | OAuth/MCP layer for explicitly delegated student context and bounded actions | [ai.gapwise.ca](https://ai.gapwise.ca) |
-| **[`data`](https://github.com/Gapwise-for-UofT/data)** | Canonical public University of Toronto campus data, provenance, schemas, validation, and distribution | [data.gapwise.ca](https://data.gapwise.ca) |
+| **[`data`](https://github.com/Gapwise-for-UofT/data)** | Canonical public multi-university campus data, provenance, schemas, validation, and distribution | [data.gapwise.ca](https://data.gapwise.ca) |
 | **[`docs`](https://github.com/Gapwise-for-UofT/docs)** | Canonical public developer documentation | [docs.gapwise.ca](https://docs.gapwise.ca) |
 | **[`status`](https://github.com/Gapwise-for-UofT/status)** | **Independent service-health monitoring and incident communication** | [status.gapwise.ca](https://status.gapwise.ca) |
 
