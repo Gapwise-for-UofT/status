@@ -6,10 +6,10 @@
   "homepage": "https://status.gapwise.ca",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gapwise-for-UofT/status.git"
+    "url": "https://github.com/GapwiseHQ/status.git"
   },
   "bugs": {
-    "url": "https://github.com/Gapwise-for-UofT/status/issues"
+    "url": "https://github.com/GapwiseHQ/status/issues"
   },
   "scripts": {
     "dev": "astro dev",

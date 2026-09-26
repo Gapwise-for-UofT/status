@@ -1,4 +1,4 @@
-const [owner, repo] = String(process.env.GITHUB_REPOSITORY || "Gapwise-for-UofT/status").split("/");
+const [owner, repo] = String(process.env.GITHUB_REPOSITORY || "GapwiseHQ/status").split("/");
 if (!owner || !repo) throw new Error("GITHUB_REPOSITORY must be in owner/repo form.");
 const issueNumber = Number(process.env.STATUS_ISSUE_NUMBER || "1");
 const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;

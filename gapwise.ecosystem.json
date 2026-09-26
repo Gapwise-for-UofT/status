@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "self": "status",
-  "githubOrganization": "Gapwise-for-UofT",
+  "githubOrganization": "GapwiseHQ",
   "canonical": {
     "app": "https://gapwise.ca",
     "api": "https://api.gapwise.ca/v1",
@@ -13,13 +13,13 @@
     "status": "https://status.gapwise.ca"
   },
   "repositories": {
-    "core": "https://github.com/Gapwise-for-UofT/gapwise",
-    "android": "https://github.com/Gapwise-for-UofT/android",
-    "ios": "https://github.com/Gapwise-for-UofT/ios",
-    "ai": "https://github.com/Gapwise-for-UofT/ai",
-    "data": "https://github.com/Gapwise-for-UofT/data",
-    "docs": "https://github.com/Gapwise-for-UofT/docs",
-    "status": "https://github.com/Gapwise-for-UofT/status"
+    "core": "https://github.com/GapwiseHQ/gapwise",
+    "android": "https://github.com/GapwiseHQ/android",
+    "ios": "https://github.com/GapwiseHQ/ios",
+    "ai": "https://github.com/GapwiseHQ/ai",
+    "data": "https://github.com/GapwiseHQ/data",
+    "docs": "https://github.com/GapwiseHQ/docs",
+    "status": "https://github.com/GapwiseHQ/status"
   },
   "ownership": {
     "core": ["student-state", "deterministic-domain-logic", "routing-algorithms", "gap-planning", "map-product-ui", "public-api", "openapi", "typescript-sdk", "python-sdk"],
@@ -31,7 +31,7 @@
     "status": ["service-health", "incident-communication"]
   },
   "campusData": {
-    "canonicalRepository": "https://github.com/Gapwise-for-UofT/data",
+    "canonicalRepository": "https://github.com/GapwiseHQ/data",
     "canonicalPath": "data/utm",
     "coreMirrorPath": "src/data/utm",
     "runtimeFetchRequired": false,
@@ -43,7 +43,7 @@
       "registries": {
         "npm": { "version": "0.1.1", "state": "published", "role": "canonical" },
         "jsr": { "version": "0.1.1", "state": "published", "role": "canonical" },
-        "githubPackages": { "package": "@gapwise-for-uoft/sdk", "version": "0.1.1", "state": "published", "role": "mirror" }
+        "githubPackages": { "package": "@gapwisehq/sdk", "version": "0.1.1", "state": "published", "role": "mirror" }
       },
       "runtimeTargets": ["node", "bun", "deno", "browser"],
       "model": "single-portable-implementation"
