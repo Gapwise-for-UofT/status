@@ -53,7 +53,7 @@ Key behavior:
 - service-state transitions are retained for the public history view;
 - current state and history use GitHub-backed state with safe fallbacks;
 - a failure to load status data is not itself presented as proof that the entire Gapwise ecosystem is down;
-- external university systems (U of T, Carleton, TMU, Queen's, Laurier) and other upstream dependencies remain outside Gapwise's control.
+- external university systems (U of T, Carleton, TMU, Queen's, Laurier, York, McMaster) and other upstream dependencies remain outside Gapwise's control.
 
 Public routes include `/` for current state, `/history/` for recorded transitions/incidents, `/_data/current`, and `/_data/history`.
 
@@ -113,7 +113,7 @@ npm run dev
 
 ## Independent project
 
-> **Gapwise is an independent student software project created by Andrew Muratov. It is not affiliated with, endorsed by, or an official service of the University of Toronto.**
+> **Gapwise is an independent student software project created by Andrew Muratov. It is not affiliated with, endorsed by, or an official service of the University of Toronto, Carleton University, Toronto Metropolitan University, Queen's University, Wilfrid Laurier University, York University, or McMaster University.**
 
 Original status-site code and documentation are available under the [MIT License](LICENSE).
 
