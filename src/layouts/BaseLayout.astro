@@ -23,6 +23,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://status.gapwise.ca/og-card.png" />
+    <meta property="og:image:secure_url" content="https://status.gapwise.ca/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Gapwise Status — Real-time availability and system health across the Gapwise platform" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://status.gapwise.ca/og-card.png" />
+    <meta name="twitter:image:alt" content="Gapwise Status — Real-time availability and system health across the Gapwise platform" />
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#07101a" />
     <title>{title}</title>
