@@ -1,6 +1,6 @@
 # Campus data ownership
 
-Canonical public University of Toronto campus facts and geometry live in `Gapwise-for-UofT/data`. UTM's reviewed entrance/routing dataset lives under `data/utm`; UTSG and UTSC identities and geometry live in their own campus directories.
+Canonical public University of Toronto campus facts and geometry live in `GapwiseHQ/data`. UTM's reviewed entrance/routing dataset lives under `data/utm`; UTSG and UTSC identities and geometry live in their own campus directories.
 
 `gapwise` consumes a validated build-time snapshot and owns deterministic routing, gap-planning, API, SDK, and product behavior. `status` remains an operationally independent service-health and incident-communication surface; it does not own or consume raw campus data as an application dependency.
 

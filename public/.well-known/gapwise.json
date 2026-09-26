@@ -10,6 +10,6 @@
   "ai": "https://ai.gapwise.ca",
   "mcp": "https://ai.gapwise.ca/api/mcp",
   "status": "https://status.gapwise.ca",
-  "githubOrganization": "https://github.com/Gapwise-for-UofT",
-  "source": "https://github.com/Gapwise-for-UofT/gapwise"
+  "githubOrganization": "https://github.com/GapwiseHQ",
+  "source": "https://github.com/GapwiseHQ/gapwise"
 }

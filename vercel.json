@@ -25,11 +25,11 @@
   "rewrites": [
     {
       "source": "/_data/current",
-      "destination": "https://api.github.com/repos/Gapwise-for-UofT/status/issues/1"
+      "destination": "https://api.github.com/repos/GapwiseHQ/status/issues/1"
     },
     {
       "source": "/_data/history",
-      "destination": "https://api.github.com/repos/Gapwise-for-UofT/status/issues/1/comments"
+      "destination": "https://api.github.com/repos/GapwiseHQ/status/issues/1/comments"
     }
   ],
   "headers": [
